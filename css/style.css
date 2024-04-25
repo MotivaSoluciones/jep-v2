@@ -239,17 +239,16 @@ input[type="submit"] {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    padding: 9px 15px;
+    padding: 6px 20px;
     text-align: center;
-    text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     background: transparent;
     position: relative;
     background-color: #114f9a;
-    font-size: 12px;
-    border: none;
+    font-size: 15px;
+
 }
 
 .button:hover,
@@ -3076,10 +3075,11 @@ DS .product-list .product-item {
 /* PRODUCT STYLE 3*/
 
 .product-item.style3 .add_to_cart_button {
-    border: 1px solid #686868;
-    background-color: transparent;
-    color: #686868;
-    margin-top: 15px;
+    border: 1px solid #4D4D4D;
+    background-color: #4D4D4D;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
 .product-item.style3 .add_to_cart_button:hover {
@@ -9322,8 +9322,8 @@ RESPONSIVE
     }
 
     .tab-product .nav-tab:not(.box-categories) li a {
-        font-weight: 600;
-        padding: 0 20px;
+        font-size: 15px;
+        padding: 0 10px;
     }
 
     .tab-product .nav-tab.box-categories li img {
@@ -9335,10 +9335,7 @@ RESPONSIVE
 		display: none;
 	}
 */
-    .tab-product .nav-tab li:hover a,
-    .tab-product .nav-tab li.active a {
-        color: #7d7b7b;
-    }
+ 
 
     .header.style4 .top-header {
         padding: 20px 10px;
@@ -9704,12 +9701,14 @@ RESPONSIVE
 
 .favorito {
     background-color: #fff;
+    border-radius: 5px;
     border-left: 0;
-    color: #114f9a;
-    padding: 11px 10px 13px;
+    color: #007E32;
+    padding: 10px 10px 10px;
     font-size: 14px;
-    margin-top: 15px;
+    margin-left: 4px;
     position: relative;
+    border: 1px solid #4E4E4E;
 }
 
 .favorito:hover {
@@ -9967,8 +9966,8 @@ li.info-pts span {
 */
 
 .product-thumb {
-    border-radius: 10px;
-    box-shadow: 2px 4px 10px 2px #ebebeb;
+    border-radius: 5px;
+/*    box-shadow: 2px 4px 10px 2px #ebebeb;*/
 }
 
 .product-thumb img {
@@ -10205,4 +10204,11 @@ li.info-pts span {
 
 .footer-bottom .text-right a {
     display: none;
+}
+
+.product-inner {
+    background: #fff;
+    box-shadow: 2px 4px 10px 2px #ebebeb;
+    border-radius: 5px;
+    padding: 15px;
 }
