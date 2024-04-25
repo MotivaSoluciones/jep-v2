@@ -31,19 +31,6 @@ Last change: 01/15/2016
  FONTFACE 
 ------------------*/
 
-@font-face {
-    font-family: 'DearPrudence';
-    font-style: normal;
-    font-weight: normal;
-    src: local('DearPrudence-Regular'), url('../fonts/DearPrudence-Regular.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'LaCompagnie';
-    font-style: normal;
-    font-weight: normal;
-    src: local('la-Compagnie-des-Ombres'), url('../fonts/la-Compagnie-des-Ombres.ttf') format('opentype');
-}
 
 @font-face {
     font-family: "Flaticon";
@@ -57,19 +44,31 @@ Last change: 01/15/2016
 }
 
 @font-face {
-    font-family: 'Montserrat Light';
+    font-family: 'FiraSans-Bold';
     font-style: normal;
-    font-weight: 300;
-    src: local('Montserrat Light'),
-        local('Montserrat-Light'),
-        url("../fonts/Montserrat-Light.ttf") format('opentype'),
+    font-weight: normal;
+    src: local('FiraSans-Bold'), url('../fonts/FiraSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-SemiBold';
     font-style: normal;
     font-weight: normal;
-    src: local('Montserrat-Light'), url('../fonts/Montserrat-Light.ttf') format('opentype');
+    src: local('FiraSans-SemiBold'), url('../fonts/FiraSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FiraSans-Medium'), url('../fonts/FiraSans-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('FiraSans-Regular'), url('../fonts/FiraSans-Regular.ttf') format('truetype');
 }
 
 [class^="flaticon-"]:before,
@@ -107,7 +106,7 @@ COMMON STYLES
 ---------------------*/
 
 body {
-    font-family: 'Montserrat';
+    font-family: 'FiraSans-Regular';
     font-size: 14px;
     line-height: 24px;
     color: #555;
@@ -305,23 +304,16 @@ input[type="submit"]:hover:after {
 
 
 
-.PlayfairDisplay {
-    font-family: 'PlayfairDisplay';
-    font-style: italic;
-}
+
 
 .text-primary {
     color: #7d7b7b;
 }
 
-.GreatVibes {
-    font-family: 'Great Vibes';
-    font-size: 26px;
-    color: #010101;
-}
+
 
 blockquote {
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-style: italic;
     font-size: 14px;
     color: #303030;
@@ -840,7 +832,7 @@ blockquote.style2:after {
     margin: 0;
     padding: 0;
     display: inline-block;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     font-size: 13px;
 
 }
@@ -2488,7 +2480,7 @@ blockquote.style2:after {
 
 .header-bottom-sidebar-menu {
     margin: 0;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     text-transform: none;
     font-size: 13px;
     margin-bottom: 20px;
@@ -2868,9 +2860,9 @@ PRODUCT
 }
 
 .product-item .product-name a {
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #222222;
+    font-family: 'FiraSans-Medium';
+    font-size: 15px;
+    color: #000;
 }
 
 .product-item .product-name a:hover {
@@ -2878,10 +2870,10 @@ PRODUCT
 }
 
 .product-item .price {
-    color: #686868;
-    display: block;
-    font-size: 1.6rem;
-    /*	margin-bottom: 5px;*/
+    color: #007E32;
+    font-size: 18px;
+    font-family: 'FiraSans-Bold';
+    margin-bottom: 5px;
 }
 
 .product-item .price ins {
@@ -4065,11 +4057,11 @@ ICON
     -moz-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.5s ease-out 0s;
     transition: all 0.5s ease-out 0s;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .element-icon.style3 .subtite {
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     color: #7d7b7b;
     font-size: 14px;
     font-style: italic;
@@ -4117,7 +4109,7 @@ ICON
 .element-icon.style4 .title {
     font-size: 18px;
     margin: 0;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .element-icon.style4 .title strong {
@@ -4127,7 +4119,7 @@ ICON
 
 .element-icon.style4 .subtite {
     color: #666;
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-size: 14px;
 }
 
@@ -4326,7 +4318,7 @@ FOOTER
 .footer.style2 {
     background-color: #f0f0f0;
     color: #666;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     font-size: 13px;
 }
 
@@ -4448,7 +4440,7 @@ FOOTER
 .footer.style4 {
     text-align: center;
     font-size: 13px;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .footer.style4 .contact-info .logo {
@@ -4489,7 +4481,7 @@ FOOTER
 .footer.style5 {
     text-align: center;
     font-size: 13px;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .footer.style5 .widget {
@@ -5171,7 +5163,7 @@ FOOTER
 }
 
 .lastest-blog.style3 .metas {
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     font-size: 12px;
 }
 
@@ -5186,7 +5178,7 @@ FOOTER
 }
 
 .lastest-blog.style3 .desc {
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     font-size: 13px;
 }
 
@@ -5222,7 +5214,7 @@ FOOTER
 
 .lastest-blog.style4 .blog-date {
     padding: 0;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     margin-bottom: 15px;
 }
 
@@ -5257,7 +5249,7 @@ FOOTER
 }
 
 .lastest-blog.style5 .metas {
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     text-transform: uppercase;
     font-size: 10px;
     color: #666666;
@@ -5282,7 +5274,7 @@ FOOTER
 .lastest-blog.style5 .metas .date .day:after {
     content: '/';
     display: inline-block;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     font-size: 16px;
 }
 
@@ -5566,17 +5558,17 @@ FOOTER
 }
 
 .tab-product .nav-tab li a {
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #686868;
+    font-size: 25px;
+    font-family: 'FiraSans-SemiBold';
+    color: #4D4D4D;
     position: relative;
 }
 
 .tab-product .nav-tab li a:after {
     width: 0px;
-    height: 0px;
-    /*    display: block;*/
-    background-color: #fff;
+    height: 3px;
+    display: block;
+    background-color: #13C158;
     margin: 0 auto;
     margin-top: 0px;
     content: '';
@@ -5587,7 +5579,7 @@ FOOTER
 
 .tab-product .nav-tab li:hover a:after,
 .tab-product .nav-tab li.active a:after {
-    width: 50px;
+    width: 100%;
 }
 
 .tab-product .tab-container {
@@ -6467,7 +6459,7 @@ FOOTER
 }
 
 .product-details-right.style2 {
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     width: 100%;
     float: left;
 }
@@ -6475,7 +6467,7 @@ FOOTER
 .product-details-right.style2 .product-name {
     color: #000;
     margin-bottom: 0;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .product-details-right.style2 .short-descript {
@@ -6486,7 +6478,7 @@ FOOTER
 
 .product-details-right .price {
     margin-bottom: 20px;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .product-details-right.style2 .cart-form {
@@ -6780,7 +6772,7 @@ table.group-product a:hover {
 
 table.group-product .price {
     margin: 0;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     font-size: 14px;
 }
 
@@ -7154,7 +7146,7 @@ BLOG PAGE
 .butique-banner .bottom {
     font-size: 13px;
     color: #666;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .butique-banner .block-link {
@@ -7184,7 +7176,7 @@ BLOG PAGE
     border-radius: 50%;
     float: left;
     background-color: #7d7b7b;
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-style: italic;
     font-weight: 700;
     font-size: 36px;
@@ -7267,7 +7259,7 @@ BLOG PAGE
 
 .butique-banner .head .subtitle {
     font-size: 30px;
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-style: italic;
     font-weight: 700;
     color: #7d7b7b;
@@ -7410,7 +7402,7 @@ BLOG PAGE
 
 .testimonials .testimonial-info {
     font-size: 13px;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     color: #fff;
     text-align: center;
     max-width: 430px;
@@ -7424,7 +7416,7 @@ BLOG PAGE
 .testimonials h6 {
     color: #fff;
     margin: 0;
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-size: 18px;
     font-style: italic;
 }
@@ -7553,7 +7545,7 @@ BLOG PAGE
 }
 
 .block-banner-text .text a {
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-size: 14px;
     font-style: italic;
     font-weight: 700;
@@ -7588,7 +7580,7 @@ BLOG PAGE
 }
 
 .block-text-border .link {
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-size: 14px;
     font-style: italic;
     font-weight: 700;
@@ -7745,7 +7737,7 @@ BLOG PAGE
     border: none;
     border-bottom: 1px solid #ccc;
     padding-left: 0;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     font-size: 13px;
     width: 100%;
 }
@@ -7820,7 +7812,7 @@ BLOG PAGE
     background-color: #7d7b7b;
     color: #fff;
     text-transform: uppercase;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .block-text p {
@@ -8023,7 +8015,7 @@ BLOG PAGE
 }
 
 .page-banner .banner-content .subtitle {
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-size: 18px;
     font-style: italic;
 }
@@ -8056,7 +8048,7 @@ BLOG PAGE
 }
 
 .team .position {
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-size: 13px;
     font-style: italic;
 }
@@ -8108,7 +8100,7 @@ BLOG PAGE
 
 .testimonial .text {
     font-size: 13px;
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-style: italic;
     padding-bottom: 50px;
 }
@@ -8119,7 +8111,7 @@ BLOG PAGE
 }
 
 .testimonial .position {
-    font-family: 'Playfair Display';
+    font-family: 'FiraSans-Regular';
     font-style: italic;
 }
 
@@ -8674,7 +8666,7 @@ table {
     margin-top: 60px;
     padding: 87px 0 110px 0;
     background-image: url('../images/slides/pralax3.png');
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
     background-position: center;
 }
 
@@ -8685,7 +8677,7 @@ table {
 .block-paralax3 .title {
     font-size: 48px;
     color: #333;
-    font-family: 'MontserratLight';
+    font-family: 'FiraSans-Regular';
 }
 
 .section-block-text {
@@ -9620,9 +9612,9 @@ RESPONSIVE
 }
 
 .marca {
-    font-size: 1.2rem;
-    color: #888;
-    margin: 15px 0 0 0;
+    font-size: 13px;
+    color: #4D4D4D;
+    margin: 5px 0 0 0;
 }
 
 .price-normal {
@@ -9707,7 +9699,7 @@ RESPONSIVE
 
 
 #header {
-    background: #fff;
+    background: #2E2E2E;
 }
 
 .favorito {
@@ -9967,10 +9959,12 @@ li.info-pts span {
     font-size: 18px;
 }
 
+/*
 .now .active a {
     font-weight: 600;
     color: #114f9a !important;
 }
+*/
 
 .product-thumb {
     border-radius: 10px;
@@ -10208,6 +10202,7 @@ li.info-pts span {
         text-align: left !important;
     }
 }
+
 .footer-bottom .text-right a {
     display: none;
 }
