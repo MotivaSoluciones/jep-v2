@@ -239,7 +239,7 @@ input[type="submit"] {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    padding: 6px 20px;
+    padding: 8px 35px;
     text-align: center;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -254,7 +254,7 @@ input[type="submit"] {
 
 .button:hover,
 input[type="submit"]:hover {
-    background-color: #686868;
+    background-color: #F39200;
     color: #fff;
 }
 
