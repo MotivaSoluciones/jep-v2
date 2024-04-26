@@ -7945,12 +7945,12 @@ BLOG PAGE
 /*Scroll Top */
 
 .scroll_top {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     position: fixed;
     z-index: 9999;
-    right: 40px;
-    bottom: 120px;
+    right: 10px;
+    bottom: 60px;
     background-color: #114f9a;
     display: none;
     color: #fff;
@@ -9335,7 +9335,7 @@ RESPONSIVE
 		display: none;
 	}
 */
- 
+
 
     .header.style4 .top-header {
         padding: 20px 10px;
@@ -9704,8 +9704,8 @@ RESPONSIVE
     border-radius: 5px;
     border-left: 0;
     color: #007E32;
-    padding: 10px 10px 10px;
-    font-size: 14px;
+    padding: 6px 10px 8px;
+    font-size: 18px;
     margin-left: 4px;
     position: relative;
     border: 1px solid #4E4E4E;
@@ -9800,7 +9800,7 @@ li.info-pts {
 .appWhatsapp {
 
     border-radius: 16px;
-    background: #114f9a;
+    background: #00a884;
     color: rgb(255, 255, 255);
 
     align-items: center;
@@ -9870,15 +9870,16 @@ li.info-pts {
 
 .open-button {
     background-color: transparent;
-    font-weight: 600;
     border: 0;
     border-radius: 25px;
     cursor: pointer;
     position: fixed;
-    bottom: 0px;
-    right: 0px;
-    width: 55px;
-    height: 55px;
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    z-index: 9999;
 }
 
 /* The popup chat - hidden by default */
@@ -9886,8 +9887,8 @@ li.info-pts {
 .chat-popup {
     display: none;
     position: fixed;
-    bottom: 15px;
-    right: 105px;
+    bottom: 10px;
+    right: 60px;
     z-index: 9;
 }
 
@@ -9967,7 +9968,7 @@ li.info-pts span {
 
 .product-thumb {
     border-radius: 5px;
-/*    box-shadow: 2px 4px 10px 2px #ebebeb;*/
+    /*    box-shadow: 2px 4px 10px 2px #ebebeb;*/
 }
 
 .product-thumb img {
@@ -10208,7 +10209,19 @@ li.info-pts span {
 
 .product-inner {
     background: #fff;
-    box-shadow: 2px 4px 10px 2px #ebebeb;
+
     border-radius: 5px;
     padding: 15px;
+}
+
+.titulo {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    margin: 15px 0;
+}
+
+.box-gris {
+    background: #EBEBEB
 }
