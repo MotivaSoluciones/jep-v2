@@ -246,8 +246,9 @@ input[type="submit"] {
     transition: all 0.3s ease 0s;
     background: transparent;
     position: relative;
-    background-color: #114f9a;
-    font-size: 15px;
+    background-color: #F39200;
+    font-size: 20px;
+    border-radius: 5px;
 
 }
 
@@ -3080,6 +3081,9 @@ DS .product-list .product-item {
     color: #fff;
     margin-top: 5px;
     border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 15px;
+    display: inline-block;
 }
 
 .product-item.style3 .add_to_cart_button:hover {
@@ -10217,11 +10221,19 @@ li.info-pts span {
 .titulo {
     color: #fff;
     font-size: 30px;
-    font-weight: 600;
+    font-family: 'FiraSans-Bold';
     font-style: italic;
-    margin: 15px 0;
+    margin: 6px 0;
 }
 
 .box-gris {
     background: #EBEBEB
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .product-item.style3 .add_to_cart_button {
+        padding: 6px 8px !important;
+    }
+
+    /* … */
 }
