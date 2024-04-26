@@ -3528,7 +3528,7 @@ DS .product-list .product-item {
     color: #114f9a;
     font-weight: bold;
     display: inline-block;
-    width: 10px;
+    width: 0px;
 
     font-size: 10px;
     vertical-align: middle;
@@ -3536,18 +3536,20 @@ DS .product-list .product-item {
 
 .widget ul li {
     list-style: none;
-    margin-bottom: 10px;
+    line-height: 20px;
+    margin-bottom: 2px;
     /*	border-bottom: 1px dashed #d8d8d8;*/
 }
 
 .widget ul li a {
-    color: #212529;
+    color: #fff;
+    font-size: 15px;
 }
 
 .widget_product_categories li,
 .widget_layered_nav li {
     line-height: 40px;
-    font-family: 'Roboto';
+   
     font-size: 15px;
 }
 
@@ -4158,14 +4160,14 @@ FOOTER
 }*/
 
 .footer .widget {
-    margin-top: 30px;
+    margin-top: 20px;
 
 }
 
 .footer .widget .widget-title {
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
    
     font-weight: 600;
 }
@@ -4193,17 +4195,17 @@ FOOTER
 .footer .our-service ul li {
     line-height: 28px;
     list-style: none;
-    line-height: 28px;
+    line-height: 24px;
     list-style: none;
     border: none;
 }
 
 .footer .our-service ul li a {
-    color: #212529;
+    color: #fff;
 }
 
 .footer .our-service ul li a:hover {
-    color: #545454;
+    color: #fff;
 }
 
 .footer .widget_social .social a {
@@ -10236,4 +10238,10 @@ li.info-pts span {
     }
 
     /* … */
+}
+.margin-redes {
+    margin: 5px;
+}
+.footer .footer-bottom p {
+    font-size: 13px;
 }
