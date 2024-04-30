@@ -1248,11 +1248,11 @@ blockquote.style2:after {
 
 .show-shopping-cart {
     background: #fff none repeat scroll 0 0;
-    max-height: 430px;
+    max-height: 450px;
     height: auto;
     overflow-y: scroll;
     opacity: 0;
-    padding: 30px;
+    padding: 20px 20px 15px;
     position: absolute;
     right: -30px;
     top: 100%;
@@ -1309,7 +1309,7 @@ blockquote.style2:after {
 .show-shopping-cart .list-product li {
     list-style: none;
     border-bottom: 1px solid #e5e5e5;
-    padding: 20px 0;
+    padding: 15px 0;
     overflow: hidden;
     width: 100%;
 }
@@ -1335,12 +1335,16 @@ blockquote.style2:after {
 }
 
 .show-shopping-cart .list-product .product-name {
-    font-size: 12px;
-    text-transform: uppercase;
+    line-height: 17px;
+    margin-bottom: 6px;
+    height: 35px;
+
 }
 
 .show-shopping-cart .list-product .product-name a {
-    color: #222;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
 }
 
 .show-shopping-cart .list-product .product-name a:hover {
@@ -1371,26 +1375,34 @@ blockquote.style2:after {
     text-align: center;
     display: table;
     width: 100%;
+    font-weight: 600;
+    color: #000;
+    font-size: 13px;
 }
 
 .mini-cart .group-button .button {
     display: block;
+    font-size: 13px;
     width: 100%;
-    padding: 16px 0px;
+    padding: 6px 0px;
     margin-bottom: 10px;
+    
 }
-
+.group-button {
+    text-align: center;
+}
 .mini-cart .group-button .check-out {
-    border: 1px solid #e5e5e5;
-    background-color: #e5e5e5;
-    color: #343434;
-    padding: 15px 0px;
+    border: 1px solid #A2A2A2;
+    background-color: #A2A2A2;
+    color: #fff;
+    font-size: 13px;
+    padding: 5px 0px;
 }
 
 .mini-cart .group-button .check-out:hover {
-    background-color: #e5e5e5;
-    color: #343434;
-    border-color: #e5e5e5;
+    background-color: #A2A2A2;
+    color: #fff;
+    border-color: #A2A2A2;
 }
 
 /* BOX CONTROL*/
@@ -9708,7 +9720,7 @@ RESPONSIVE
 
 #header {
     background: url(../images/bg-header.png) #2E2E2E;
-    
+
 }
 
 .favorito {
@@ -10264,4 +10276,17 @@ li.info-pts span {
 
 .footer .footer-bottom p {
     font-size: 13px;
+}
+
+.info .price {
+    color: #007E32;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+
+.info .marca {
+    font-size: 12px;
+    margin: 0;
 }
