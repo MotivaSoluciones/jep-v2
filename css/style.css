@@ -3846,21 +3846,24 @@ DS .product-list .product-item {
 
 .widget_recent_product .product-name {
     line-height: 20px;
+    margin: 5px 0;
 }
 
 .widget_recent_product .product-name a {
-    font-size: 12px;
-    color: #222;
-    text-transform: uppercase;
-    line-height: normal;
+    font-family: 'FiraSans-Medium';
+    font-size: 15px;
+    color: #000;
 }
 
 .widget_recent_product .product-name a:hover {
-    color: #7d7b7b;
+    color: #000;
 }
 
 .widget_recent_product .price {
-    color: #222;
+    color: #007E32;
+    font-size: 18px;
+    font-family: 'FiraSans-Bold';
+    margin-bottom: 5px;
 }
 
 .widget_recent_product .price ins {
@@ -9645,7 +9648,7 @@ RESPONSIVE
 }
 
 .basket {
-    background: #114f9a;
+    background: #F39200;
     border-radius: 100%;
     height: 24px;
     line-height: 24px;
@@ -10172,6 +10175,7 @@ li.info-pts span {
     #header {
         background-image: none;
     }
+
     .header.style3 .logo a img {
         height: 40px;
     }
@@ -10317,4 +10321,25 @@ li.info-pts span {
 
 .box-inner {
     color: #fff;
+}
+
+.exito {
+    font-size: 25px;
+    color: green;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.titulo-modal {
+    margin-bottom: 0;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.modal-header .close{
+    position: absolute!important;
+    right: 15px!important;
+    font-size: 25px!important;
+    opacity: .5;
 }
