@@ -978,7 +978,7 @@ blockquote.style2:after {
 }
 
 .main-menu > li > a {
-    padding: 13px 0;
+    padding: 18px 0;
     font-family: 'FiraSans-Medium';
     display: inline-block;
     color: #F39200;
@@ -10166,10 +10166,14 @@ li.info-pts span {
         padding-top: 0px;
         text-align: center;
         width: 100%;
+        margin-bottom: 10px;
     }
 
     #header {
         background-image: none;
+    }
+    .header.style3 .logo a img {
+        height: 40px;
     }
 }
 
