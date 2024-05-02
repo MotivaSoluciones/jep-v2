@@ -1335,7 +1335,7 @@ blockquote.style2:after {
 }
 
 .show-shopping-cart .list-product .product-name {
-    line-height: 17px;
+    line-height: 15px;
     margin-bottom: 6px;
     height: 35px;
 
@@ -1744,6 +1744,7 @@ blockquote.style2:after {
 
 .header.style3 .box-search .search {
     padding: 5px;
+    font-family: 'FiraSans-Regular';
 }
 
 .header.style3 .button-search {
