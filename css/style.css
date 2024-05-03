@@ -10280,7 +10280,7 @@ li.info-pts span {
     font-size: 30px;
     font-family: 'FiraSans-Bold';
     font-style: italic;
-    margin: 6px 0;
+    margin: 9px 0;
 }
 
 .box-gris {
@@ -10294,6 +10294,9 @@ li.info-pts span {
 
     .header.style3.ontop .main-menu > li > a {
         font-size: 15px;
+    }
+    .header.style3 .logo a img {
+        height: 50px;
     }
 
     /* … */
@@ -10347,4 +10350,7 @@ li.info-pts span {
     right: 15px !important;
     font-size: 25px !important;
     opacity: .5;
+}
+.direccion {
+    
 }
