@@ -107,7 +107,7 @@ COMMON STYLES
 
 body {
     font-family: 'FiraSans-Regular';
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: #555;
     font-weight: 400;
@@ -187,6 +187,11 @@ ol ul {
     padding-left: 30px
 }
 
+label {
+    color: #4D4D4D;
+    font-size: 15px;
+}
+
 select[class="normal"],
 option[class="normal"],
 input[type="date"],
@@ -195,10 +200,12 @@ input[type="email"],
 textarea,
 input[type="password"],
 input[type="tel"] {
-    border: 1px solid #e8e8e8;
-    padding: 6px 15px;
-    color: #747474;
+    border: 1px solid #BFBFBF;
+    padding: 3px 15px;
+    color: #000;
     max-width: 100%;
+    border-radius: 4px;
+    font-size: 15px;
 }
 
 input[type="text"]:focus,
@@ -1039,7 +1046,7 @@ blockquote.style2:after {
     background-color: #fff;
     z-index: 10;
     text-align: left;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     background-repeat: no-repeat;
     background-position: right bottom;
 }
@@ -1424,7 +1431,7 @@ blockquote.style2:after {
 
 .box-search {
     position: relative;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
 }
 
 .box-search .search {
@@ -1573,7 +1580,7 @@ blockquote.style2:after {
 }
 
 .setting-option {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     padding-top: 13px;
 }
 
@@ -1583,6 +1590,7 @@ blockquote.style2:after {
 
 .setting-option ul li {
     line-height: 30px;
+    font-family: 'FiraSans-Regular';
 }
 
 .setting-option ul li a {
@@ -1789,7 +1797,7 @@ blockquote.style2:after {
 .header.style3 .main-menu > li:first-child {}
 
 .header.style3 .main-menu > li:last-child {
-    padding-right: 0;
+   
 }
 
 /* Header style 4*/
@@ -3059,7 +3067,7 @@ DS .product-list .product-item {
 }
 
 .product-item.list .short-descript {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
 }
 
 .product-item.list .available {
@@ -3417,7 +3425,7 @@ DS .product-list .product-item {
 /* BREADCRUMBS */
 
 .breadcrumbs {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     color: #555;
     display: inline-block;
 }
@@ -3449,7 +3457,7 @@ DS .product-list .product-item {
 
 .woocommerce-result-count {
     display: inline-block;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
 }
 
 .orderby-wapper .chosen-container-single .chosen-single {
@@ -3545,7 +3553,7 @@ DS .product-list .product-item {
 
 .footer .widget ul li::before {
     content: "\276F";
-    color: #114f9a;
+    color: #272727;
     font-weight: bold;
     display: inline-block;
     width: 0px;
@@ -3599,7 +3607,7 @@ DS .product-list .product-item {
 
 .tagcloud {
     overflow: hidden;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     text-align: center;
 }
 
@@ -3630,7 +3638,7 @@ DS .product-list .product-item {
 
 .widget_price_filter .price_slider_wrapper {
     padding-top: 10px;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
 }
 
 .widget_price_filter .slider-range-price {
@@ -3935,8 +3943,8 @@ ICON
 }
 
 .element-icon .title {
-    font-size: 14px;
-    /*	text-transform: uppercase;*/
+    font-size: 15px;
+    font-family: 'FiraSans-Regular';
     -webkit-transition: all 0.5s ease-out 0s;
     -moz-transition: all 0.5s ease-out 0s;
     -o-transition: all 0.5s ease-out 0s;
@@ -3951,10 +3959,10 @@ ICON
 }
 
 .element-icon.style2 {
-    border: 1px dashed #37623b;
-    padding: 48px;
-    display: table;
-    width: 100%;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
 }
 
 .element-icon.style2:before {
@@ -3983,19 +3991,7 @@ ICON
     transform: scale(1, 0);
 }
 
-.element-icon.style2:hover:before,
-.element-icon.style2:hover:after {
-    transform: scale(1);
-    -webkit-transition: all 0.5s ease-out 0s;
-    -moz-transition: all 0.5s ease-out 0s;
-    -o-transition: all 0.5s ease-out 0s;
-    transition: all 0.5s ease-out 0s;
-}
 
-.element-icon.style2:hover,
-.element-icon.style2:hover .title {
-    color: #7d7b7b;
-}
 
 .element-icon.style2 .icon {
     display: inline-block;
@@ -4013,7 +4009,7 @@ ICON
 
 .element-icon.style2 .title {
     margin: 0;
-    margin-bottom: 7px;
+
 }
 
 
@@ -4964,7 +4960,7 @@ FOOTER
 .title-border .subtext {
     color: #999;
     margin-left: 20px;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     font-weight: normal;
 }
 
@@ -5081,7 +5077,7 @@ FOOTER
     color: #fff;
     width: auto;
     padding: 15px;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     font-weight: 300;
     display: table;
 }
@@ -5172,7 +5168,7 @@ FOOTER
     text-align: center;
     vertical-align: middle;
     font-size: 30px;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     font-weight: 100;
     z-index: 1;
     opacity: 0;
@@ -5413,7 +5409,7 @@ FOOTER
     font-size: 13px;
     color: #aaaaaa;
     padding: 0;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     padding-left: 10px;
     width: 100%;
 }
@@ -6215,7 +6211,7 @@ FOOTER
 }
 
 .block-single-product .attributes {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     font-weight: 300;
 }
 
@@ -6354,6 +6350,7 @@ FOOTER
     padding-bottom: 10px;
     margin-bottom: 15px;
     border-bottom: 1px solid #ebebeb;
+    font-family: 'FiraSans-Regular';
 }
 
 .product-details-right .product-name {
@@ -6390,7 +6387,7 @@ FOOTER
 }
 
 .product-details-right .short-descript {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     margin-bottom: 20px;
 }
 
@@ -6675,7 +6672,7 @@ FOOTER
 }
 
 .tab-details-product .tab-container {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 50px;
 }
@@ -6730,7 +6727,7 @@ FOOTER
 }
 
 .box-list-reviews .commentlist .comment .comment-content {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
 }
 
 .box-list-reviews .meta span {
@@ -6739,7 +6736,7 @@ FOOTER
 }
 
 .box-list-reviews .meta .date {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     color: #999;
 }
 
@@ -6748,7 +6745,7 @@ FOOTER
 }
 
 .form-review {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     overflow: hidden;
 }
 
@@ -6888,7 +6885,7 @@ BLOG PAGE
 
 .blog-item .entry-meta {
     font-size: 13px;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     margin-bottom: 10px;
     color: #222;
 
@@ -6995,7 +6992,7 @@ BLOG PAGE
     width: 68%;
     overflow: hidden;
     padding-left: 25px;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
 }
 
 .author-info-wrap .avatar {
@@ -7049,7 +7046,7 @@ BLOG PAGE
 }
 
 #comments .comment-list .date-comment {
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
     font-size: 13px;
 }
 
@@ -8176,7 +8173,7 @@ BLOG PAGE
 .kt-contact-form input[type="text"],
 .kt-contact-form textarea {
     width: 100%;
-    font-family: 'Roboto';
+    font-family: 'FiraSans-Regular';
 }
 
 /*
@@ -10215,7 +10212,7 @@ li.info-pts span {
     }
 
     .header.style3 .main-menu > li {
-        padding: 0 10.6px;
+        padding:0 14px!important;
     }
 }
 
@@ -10295,7 +10292,15 @@ li.info-pts span {
         padding: 6px 8px !important;
     }
 
+    .header.style3.ontop .main-menu > li > a {
+        font-size: 15px;
+    }
+
     /* … */
+}
+
+.header.style3.ontop .main-menu > li {
+    padding: 0 20px;
 }
 
 .margin-redes {
@@ -10337,9 +10342,9 @@ li.info-pts span {
     margin-right: 25px;
 }
 
-.modal-header .close{
-    position: absolute!important;
-    right: 15px!important;
-    font-size: 25px!important;
+.modal-header .close {
+    position: absolute !important;
+    right: 15px !important;
+    font-size: 25px !important;
     opacity: .5;
 }

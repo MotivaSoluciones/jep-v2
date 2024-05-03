@@ -23,7 +23,17 @@
 <body class="home">
     <div id="box-mobile-menu" class="box-mobile-menu full-height full-width">
         <div class="box-inner">
-            <p class="color-whit nameUser" style="display: inline-block">Hola @Nombre</p>
+            <table class="">
+                <tr>
+                    <td width="30">
+                        <img src="images/iconos/icono-puntos.png">
+                    </td>
+                    <td>
+                        <p class="user-name">Carla Maldonado</p>
+                        <p class="puntos-actuales">260000 puntos</p>
+                    </td>
+                </tr>
+            </table>
             <span class="close-menu"><span class="icon pe-7s-close"></span></span>
         </div>
     </div>
@@ -195,82 +205,6 @@
                 </div>
             </div>
         </div>
-        <div class="margin-bottom-50">
-            <div class="section-title text-center">
-                <h3>Más sobre la marca</h3>
-            </div>
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia incidunt qui iste cum eum dolores sed hic optio. Nemo quia corporis, a rem fuga dolores tenetur consequuntur voluptatem non provident. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus debitis maxime voluptas at provident magni corporis inventore! Quisquam, enim officia laboriosam! Nihil suscipit, odio nostrum necessitatibus, quis reiciendis. Quibusdam, voluptates.</p>
-            <ul class="row margin-top-40">
-                <li class="product-item style3 mobile-slide-item col-sm-4 col-md-3">
-                    <div class="product-inner">
-                        <div class="product-thumb has-back-image">
-                            <a href="detail-prod.html"><img src="images/products/1.jpg" alt=""></a>
-
-                            <div class="gorup-button">
-                                <a href="detail-prod.html" class="quick-view"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <p class="marca">Marca</p>
-                            <p class="product-name"><a href="detail-prod.html">Nombre producto</a></p>
-                            <p class="price">500 puntos</p>
-                            <a class="add_to_cart_button" data-toggle="modal" data-target="#carrito">Agregar al carrito</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                        </div>
-                    </div>
-                </li>
-                <li class="product-item style3 mobile-slide-item col-sm-4 col-md-3">
-                    <div class="product-inner">
-                        <div class="product-thumb has-back-image">
-                            <a href="detail-prod.html"><img src="images/products/1.png" alt=""></a>
-
-                            <div class="gorup-button">
-                                <a href="detail-prod.html" class="quick-view"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <p class="marca">Marca</p>
-                            <p class="product-name"><a href="detail-prod.html">Nombre producto</a></p>
-                            <p class="price">500 puntos</p>
-                            <a class="add_to_cart_button" data-toggle="modal" data-target="#carrito">Agregar al carrito</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                        </div>
-                    </div>
-                </li>
-                <li class="product-item style3 mobile-slide-item col-sm-4 col-md-3">
-                    <div class="product-inner">
-                        <div class="product-thumb has-back-image">
-                            <a href="detail-prod.html"><img src="images/products/1.jpg" alt=""></a>
-
-                            <div class="gorup-button">
-                                <a href="detail-prod.html" class="quick-view"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <p class="marca">Marca</p>
-                            <p class="product-name"><a href="detail-prod.html">Nombre producto</a></p>
-                            <p class="price">500 puntos</p>
-                            <a class="add_to_cart_button" data-toggle="modal" data-target="#carrito">Agregar al carrito</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                        </div>
-                    </div>
-                </li>
-                <li class="product-item style3 mobile-slide-item col-sm-4 col-md-3">
-                    <div class="product-inner">
-                        <div class="product-thumb has-back-image">
-                            <a href="detail-prod.html"><img src="images/products/1.png" alt=""></a>
-
-                            <div class="gorup-button">
-                                <a href="detail-prod.html" class="quick-view"><i class="fa fa-search"></i></a>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <p class="marca">Marca</p>
-                            <p class="product-name"><a href="detail-prod.html">Nombre producto</a></p>
-                            <p class="price">500 puntos</p>
-                            <a class="add_to_cart_button" data-toggle="modal" data-target="#carrito">Agregar al carrito</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
 
     </div>
     <footer class="footer">
@@ -365,13 +299,14 @@
 
     </script>
     <!--	modals-->
+    <!--	MODALS-->
     <div class="modal fade" id="carrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
             <div class="modal-content">
-                <div class="modal-header" style="padding: 20px 40px">
-                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-check" style="font-size: 25px;vertical-align: middle;"></span> Se agregó con éxito al carrito de compras</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                <div class="modal-header">
+                    <h4 class="titulo-modal"><span class="icon pe-7s-check exito"></span> Se agregó con éxito al carrito de compras</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
                 </div>
-                <div class="modal-body margin-bottom-20" style="padding: 20px 40px">
+                <div class="modal-body margin-bottom-20">
                     <div class="widget widget_recent_product row">
                         <div class="col-md-12">
                             <ul class="product-categories">
@@ -381,10 +316,10 @@
                                         <a><img alt="" src="images/products/1.png"></a>
                                     </div>
                                     <div class="product-info">
-                                        <p class="text-uppercase marca" style="margin: 0">Marca</p>
-                                        <h3 class="product-name" style="margin-bottom: 5px;"><a href="detail-prod.html">Nombre producto</a></h3>
+                                        <p class="marca">Marca</p>
+                                        <p class="product-name"><a href="detail-prod.html">Nombre producto</a></p>
                                         <p class="price">500 puntos</p>
-
+                                        <p class="text-justify margin-top-20">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                                     </div>
                                 </li>
                             </ul>
@@ -416,33 +351,26 @@
     <div class="modal fade" id="favorito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
             <div class="modal-content">
-                <div class="modal-header" style="padding: 20px 40px">
-                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-check" style="font-size: 25px;vertical-align: middle"></span> El articulo fue agregado a tus favoritos</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                <div class="modal-header">
+                    <h4 class="titulo-modal"><span class="icon pe-7s-check exito"></span> El producto fue agregado a tus favoritos</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
                 </div>
-                <div class="modal-body margin-bottom-20" style="padding: 20px 40px">
+                <div class="modal-body margin-bottom-20">
                     <div class="widget widget_recent_product row">
                         <div class="col-md-12">
                             <ul class="product-categories">
                                 <li>
                                     <div class="product-thumb" style="position: relative">
-                                        <span class="basket">1</span>
+
                                         <a><img alt="" src="images/products/1.png"></a>
                                     </div>
                                     <div class="product-info">
                                         <p class="text-uppercase marca" style="margin: 0">Marca</p>
                                         <h3 class="product-name" style="margin-bottom: 5px;"><a href="detail-prod.html">Nombre producto</a></h3>
                                         <p class="price">500 puntos</p>
+                                        <p class="text-justify margin-top-20">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                                     </div>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="row margin-bottom-20">
-                        <div class="col-md-6">
-                            <h5 style="font-weight: 600">Sub-total (2 productos):</h5>
-                        </div>
-                        <div class="col-md-6">
-                            <h5 style="font-weight: 600">1000 puntos</h5>
                         </div>
                     </div>
                     <div class="row text-center">

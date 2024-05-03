@@ -294,13 +294,14 @@
 
     </script>
     <!--	MODALS-->
+
     <div class="modal fade" id="carrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
             <div class="modal-content">
-                <div class="modal-header" style="padding: 20px 40px">
-                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-check" style="font-size: 25px"></span> Agregado</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                <div class="modal-header">
+                    <h4 class="titulo-modal"><span class="icon pe-7s-check exito"></span> Se agregó con éxito al carrito de compras</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
                 </div>
-                <div class="modal-body margin-bottom-20" style="padding: 20px 40px">
+                <div class="modal-body margin-bottom-20">
                     <div class="widget widget_recent_product row">
                         <div class="col-md-12">
                             <ul class="product-categories">
@@ -310,10 +311,10 @@
                                         <a><img alt="" src="images/products/1.png"></a>
                                     </div>
                                     <div class="product-info">
-                                        <p class="text-uppercase marca" style="margin: 0">Marca</p>
-                                        <h3 class="product-name" style="margin-bottom: 5px;"><a href="detail-prod.html">Nombre producto</a></h3>
-                                        <p class="price" >500 puntos</p>
-
+                                        <p class="marca">Marca</p>
+                                        <p class="product-name"><a href="detail-prod.html">Nombre producto</a></p>
+                                        <p class="price">500 puntos</p>
+                                        <p class="text-justify margin-top-20">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
                                     </div>
                                 </li>
                             </ul>
@@ -329,7 +330,7 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-md-12">
-                            <a class="button style-10" href="carrito.html">Ver mi carrito de compras</a>
+                            <a class="button" href="carrito.html">Ver mi carrito de compras</a>
                         </div>
                     </div>
                     <br>
@@ -342,48 +343,40 @@
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="ingreso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal fade" id="favorito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
             <div class="modal-content">
-                <div class="tab-product tab-product-fade-effect">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
-                        <h4 class="title bold  margin-bottom-0">Inicia sesión</h4>
-                    </div>
-                    <div class="modal-body ">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <br>
+                <div class="modal-header">
+                    <h4 class="titulo-modal"><span class="icon pe-7s-check exito"></span> El producto fue agregado a tus favoritos</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                </div>
+                <div class="modal-body margin-bottom-20">
+                    <div class="widget widget_recent_product row">
+                        <div class="col-md-12">
+                            <ul class="product-categories">
+                                <li>
+                                    <div class="product-thumb" style="position: relative">
 
-                                <form class="text-left">
-
-                                    <label for="">Código de participante</label><br>
-                                    <input id="name" type="text" style="width: 100%">
-                                    <br><br>
-                                    <label for="">Contraseña</label><br>
-                                    <input id="name" type="password" style="width: 100%">
-                                    <br>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox">Recordar acceso
-                                        </label>
+                                        <a><img alt="" src="images/products/1.png"></a>
                                     </div>
-                                    <br>
-                                    <a href="otp.html" class="button" style="width: 100%">Ingresar</a>
-
-                                    <br><br>
-                                    <a href="nueva.html" class="button style-11" style="width: 100%">Registrarme</a>
-
-                                    <br><br>
-                                    <a href="recuperar.html" style="text-decoration: underline;">Olvide mi contraseña </a>
-                                </form>
-                            </div>
+                                    <div class="product-info">
+                                        <p class="text-uppercase marca" style="margin: 0">Marca</p>
+                                        <h3 class="product-name" style="margin-bottom: 5px;"><a href="detail-prod.html">Nombre producto</a></h3>
+                                        <p class="price">500 puntos</p>
+                                        <p class="text-justify margin-top-20">Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="modal-footer">
-                        <div class="container">
-                            <p class="text-center">JEP 2024 - Todos los derechos reservados </p>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <a class="button " href="favoritos.html">Ver favoritos</a>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            o <a data-dismiss="modal" style="text-decoration: underline;cursor: pointer">Seguir canjeando</a>
                         </div>
                     </div>
                 </div>
