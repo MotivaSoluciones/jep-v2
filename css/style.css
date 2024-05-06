@@ -1796,9 +1796,7 @@ blockquote.style2:after {
 
 .header.style3 .main-menu > li:first-child {}
 
-.header.style3 .main-menu > li:last-child {
-   
-}
+.header.style3 .main-menu > li:last-child {}
 
 /* Header style 4*/
 
@@ -8528,6 +8526,10 @@ table {
     margin-bottom: 25px !important;
 }
 
+.margin-bottom-10 {
+    margin-bottom: 10px !important;
+}
+
 .margin-top-95 {
     margin-top: 95px !important;
 }
@@ -10212,7 +10214,7 @@ li.info-pts span {
     }
 
     .header.style3 .main-menu > li {
-        padding:0 14px!important;
+        padding: 0 14px !important;
     }
 }
 
@@ -10295,6 +10297,7 @@ li.info-pts span {
     .header.style3.ontop .main-menu > li > a {
         font-size: 15px;
     }
+
     .header.style3 .logo a img {
         height: 50px;
     }
@@ -10351,6 +10354,15 @@ li.info-pts span {
     font-size: 25px !important;
     opacity: .5;
 }
+
 .direccion {
-    
+    color: #4D4D4D;
+    font-size: 20px;
+    font-family: 'FiraSans-SemiBold';
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.editar {
+    color: #007E32;
+     font-family: 'FiraSans-SemiBold';
 }
