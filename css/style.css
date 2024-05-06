@@ -3953,7 +3953,7 @@ ICON
 .element-icon .content {
     overflow: hidden;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 .element-icon.style2 {
@@ -4986,7 +4986,7 @@ FOOTER
     font-size: 60px;
     line-height: 49px;
     margin-right: 10px;
-    font-family: 'Roboto', sans-serif;
+
     font-weight: 100;
 }
 
@@ -4996,7 +4996,7 @@ FOOTER
     float: left;
     font-size: 13px;
     color: #555555;
-    font-family: 'Roboto', sans-serif;
+
     font-weight: 300;
 }
 
@@ -6158,7 +6158,7 @@ FOOTER
 }
 
 .block-single-product .desc {
-    font-family: 'Roboto', sans-serif;
+
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 60px;
@@ -8199,11 +8199,12 @@ table {
 
 .shop_table td {
     border-top: 1px solid #ddd;
-    padding: 25px 0;
+    padding: 5px 0;
 }
 
 .shop_table th {
     padding: 15px 0;
+    font-size: 20px;
 }
 
 .shop_table.cart .product-thumbnail,
@@ -8212,7 +8213,7 @@ table {
 }
 
 .shop_table.cart .product-thumbnail {
-    width: 100px;
+    width: 120px;
 }
 
 .shop_table.cart .product-thumbnail img {
@@ -8227,15 +8228,26 @@ table {
 
 }
 
+.shop_table.cart .marca {
+    font-size: 18px;
+    margin-top: 0;
+}
+
 .shop_table.cart .product-name a {
-    color: #222222;
+    color: #000;
+    font-size: 18px;
+    font-family: 'FiraSans-Medium';
+
 }
 
 .shop_table.cart .qty {
-    width: 60px;
+    width: 48px;
     padding-left: 0;
     padding-right: 0;
     text-align: center;
+    margin: 0 8px;
+    border-color: #CBCBCB;
+    height: 41px;
 }
 
 .shop_table.cart .product-remove {
@@ -8257,7 +8269,7 @@ table {
     font-size: 18px;
     font-style: italic;
     color: #222;
-    font-family: 'PlayfairDisplay';
+
 }
 
 .box-coupon .inner-box {
@@ -8275,7 +8287,7 @@ table {
     border: 1px solid #dddddd;
     padding: 26px 30px;
     margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
+
     padding-bottom: 55px;
 }
 
@@ -8289,12 +8301,12 @@ table {
 .box-cart-total table td {
     padding: 10px 0;
     vertical-align: top;
-    font-family: 'Roboto', sans-serif;
+
     padding-right: 10px;
 }
 
 .box-cart-total .price {
-    font-family: 'Montserrat', sans-serif;
+
     color: #222;
 }
 
@@ -8343,7 +8355,7 @@ table {
 /*Check out*/
 
 .form-checkout {
-    font-family: 'Roboto', sans-serif;
+
     margin-bottom: 50px;
 }
 
@@ -8375,14 +8387,14 @@ table {
 .shop-table.order td.total,
 .shop-table.order th.total {
     text-align: right;
-    font-family: 'Montserrat', sans-serif;
+
     color: #222;
 }
 
 .shop-table.order .order-total td {
     background-color: #111111;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+
     padding: 13px 25px;
     border: none;
 }
@@ -8398,7 +8410,7 @@ table {
 }
 
 .payment_methods .payment_method label {
-    font-family: 'Montserrat', sans-serif;
+
     font-weight: normal;
     margin-bottom: 0;
     display: inline-block;
@@ -8465,7 +8477,7 @@ table {
 .kt-popup-newsletter .form-subscribe .input {
     width: 100%;
     margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 .kt-popup-newsletter .form-subscribe .button {
@@ -8480,7 +8492,7 @@ table {
     font-size: 13px;
     color: #888888;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 .kt-popup-newsletter .checkbox label {
@@ -10396,9 +10408,11 @@ li.info-pts span {
 .tab-product .productos-jep a {
     font-size: 20px !important;
 }
+
 .tab-product .productos-jep a img {
     margin-bottom: 10px;
 }
+
 .tab-product .productos-jep .active a {
     color: #007E32 !important;
 
@@ -10406,4 +10420,22 @@ li.info-pts span {
 
 .tab-product .productos-jep li a:after {
     height: 0 !important;
+}
+
+.puntos-verde {
+    font-size: 18px;
+    color: #007E32;
+    font-family: 'FiraSans-Bold';
+}
+
+.menos,
+.mas{
+    cursor: pointer;
+    font-size: 20px;
+    background: #CCCCCC;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 0px 7px;
+    color: #4D4D4D;
 }

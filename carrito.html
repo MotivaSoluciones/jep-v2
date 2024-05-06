@@ -23,7 +23,17 @@
 <body class="home">
     <div id="box-mobile-menu" class="box-mobile-menu full-height full-width">
         <div class="box-inner">
-            <p class="color-whit nameUser" style="display: inline-block">Hola @Nombre</p>
+            <table class="">
+                <tr>
+                    <td width="30">
+                        <img src="images/iconos/icono-puntos.png">
+                    </td>
+                    <td>
+                        <p class="user-name">Carla Maldonado</p>
+                        <p class="puntos-actuales">260000 puntos</p>
+                    </td>
+                </tr>
+            </table>
             <span class="close-menu"><span class="icon pe-7s-close"></span></span>
         </div>
     </div>
@@ -116,11 +126,11 @@
                             </div>
                         </div>
                         <ul class="boutique-nav main-menu clone-main-menu">
-                            <li class="active menu-item-has-children item-megamenu">
+                            <li class="">
                                 <a href="index.html">Inicio</a>
                             </li>
 
-                            <li class="">
+                            <li class="active">
                                 <a href="productos.html">Catálogo</a>
                             </li>
                             <li class="">
@@ -138,52 +148,78 @@
             </div>
         </div>
     </header>
+    <img class="text-center" src="images/slides/banner-carrito.png">
+    <div style="background: #007E32">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="titulo"><img src="images/iconos/icono-carrito.png"> Carrito</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container">
         <div class="main-content">
-            <div class="page-title">
-                <h3><span class="icon pe-7s-cart" style="font-size: 25px"></span> Mis premios (2 productos)</h3>
-            </div>
             <div class="row">
-                <div class="col-sm-12 col-md-12">
+                <div class="col-md-12 margin-top-20 margin-bottom-40">
                     <div class="table-responsive">
                         <table class="shop_table cart">
                             <thead>
                                 <tr>
                                     <th colspan="2" class="product-name">Producto</th>
-                                    <th class="product-price">puntos</th>
-                                    <th class="product-quantity">Cantidad</th>
+                                    <th class="product-price">Puntos</th>
+                                    <th class="product-quantity text-center">Cantidad</th>
                                     <th class="product-subtotal">Subtotal</th>
-                                    <th class="product-remove">Eliminar</th>
+                                    <th class="product-remove text-center">Eliminar</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td class="product-thumbnail"><img src="images/products/1.jpg" alt=""></td>
                                     <td class="product-name">
-                                        <p class="text-uppercase marca">Nombre marca</p>
+                                        <p class=" marca">Nombre marca</p>
                                         <a href="detail-prod.html">Nombre producto</a>
                                     </td>
-                                    <td>500</td>
+                                    <td>
+                                        <p class="puntos-verde">500 puntos</p>
+                                    </td>
                                     <td class="text-center">
                                         <div class="quantity">
-                                            <a style="cursor: pointer;font-size: 20px;">-</a>
-                                            <input type="text" size="4" class="input-text qty text text-center" title="Qty" value="02" name="quantity">
-                                            <a style="cursor: pointer;font-size: 20px;">+</a>
+                                            <a class="menos">-</a>
+                                            <input type="text" size="4" class="input-text qty text text-center" title="Qty" value="1" name="quantity">
+                                            <a class="mas">+</a>
                                         </div>
                                     </td>
-                                    <td>500 puntos</td>
-                                    <td class="product-remove"><a><span class="icon pe-7s-trash" style="font-size: 20px"></span></a></td>
+                                    <td> <p class="puntos-verde">500 puntos</p></td>
+                                    <td class="text-center"><a href=""><img src="images/iconos/icono-eliminar.png"></a></td>
                                 </tr>
                                 <tr>
-                                    <td colspan="4">
-                                        <h6 style="font-weight: 600;text-align: right">Total (2 productos):</h6>
+                                    <td class="product-thumbnail"><img src="images/products/1.jpg" alt=""></td>
+                                    <td class="product-name">
+                                        <p class="marca">Nombre marca</p>
+                                        <a href="detail-prod.html">Nombre producto</a>
                                     </td>
                                     <td>
-                                        <h6 style="font-weight: 600;">1000 puntos</h6>
+                                        <p class="puntos-verde">500 puntos</p>
                                     </td>
-                                    <td>
-                                        <a class="button" href="checkout.html">Canjear ahora</a>
+                                    <td class="text-center">
+                                        <div class="quantity">
+                                            <a class="menos">-</a>
+                                            <input type="text" size="4" class="input-text qty text text-center" title="Qty" value="1" name="quantity">
+                                            <a class="mas">+</a>
+                                        </div>
+                                    </td>
+                                    <td> <p class="puntos-verde">500 puntos</p></td>
+                                    <td class="text-center"><a href=""><img src="images/iconos/icono-eliminar.png"></a></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" style="border-top: 0">
+                                        <p style="font-weight: 600;text-align: right;font-size: 20px;margin: 10px 0 10px 0">Total (2 productos): 000 puntos</p>
+                                    </td>
+                                   
+                                    <td style="border-top: 0" class="text-center">
+                                        <a class="button" href="checkout.html">Canjear</a>
                                     </td>
                                 </tr>
                             </tbody>
@@ -255,9 +291,11 @@
             </div>
         </div>
     </footer>
+    <!--
     <a href="#" class="scroll_top" title="Scroll to Top" style="display: block;"><i class="fa fa-arrow-up"></i></a>
-    <!--    whatsapp-->
+        whatsapp
     <button class="open-button" onclick="openForm()"><img src="images/ws.png" alt=""></button>
+-->
     <div class="chat-popup appWhatsapp" id="myForm">
         <form class="form-container">
             <div class="dis-flex padd-box1">
