@@ -16,8 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    
-    
+
+
     <style>
         .category-menu,
         .category-menu li {
@@ -30,12 +30,22 @@
 <body class="home">
     <div id="box-mobile-menu" class="box-mobile-menu full-height full-width">
         <div class="box-inner">
-            <p class="color-whit nameUser" style="display: inline-block">Hola @Nombre</p>
+            <table class="">
+                <tr>
+                    <td width="30">
+                        <img src="images/iconos/icono-puntos.png">
+                    </td>
+                    <td>
+                        <p class="user-name">Carla Maldonado</p>
+                        <p class="puntos-actuales">260000 puntos</p>
+                    </td>
+                </tr>
+            </table>
             <span class="close-menu"><span class="icon pe-7s-close"></span></span>
         </div>
     </div>
     <div id="header-ontop" class="is-sticky"></div>
-        <header id="header" class="header style3">
+    <header id="header" class="header style3">
         <div class="container">
             <div class="main-menu-wapper">
                 <div class="row">
@@ -123,14 +133,14 @@
                             </div>
                         </div>
                         <ul class="boutique-nav main-menu clone-main-menu">
-                            <li class="active menu-item-has-children item-megamenu">
+                            <li class="">
                                 <a href="index.html">Inicio</a>
                             </li>
 
                             <li class="">
                                 <a href="productos.html">Catálogo</a>
                             </li>
-                            <li class="">
+                            <li class="active">
                                 <a href="puntos.html">Mis puntos</a>
                             </li>
                             <li class="">
@@ -145,62 +155,41 @@
             </div>
         </div>
     </header>
-    <div class="container margin-bottom-50">
-
-
-        <div class="tab-product margin-top-20">
+    <img class="text-center" src="images/slides/banner-misPuntos.png">
+    <div style="background: #007E32">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="titulo"><img src="images/iconos/icono-misPuntos.png"> Mis puntos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container margin-bottom-50 margin-top-40">
+        <div class="tab-product">
             <ul class="box-tabs nav-tab tab-owl-fade-effect now">
-                <li class="active"><a data-animated='fadeInUp' data-toggle="tab" href="#tab-1">Mis Transacciones</a></li>
-                <li><a data-animated='slideInLeft' data-toggle="tab" href="#tab-2">Puntos acumulados</a></li>
-                <li><a data-animated='slideInLeft' data-toggle="tab" href="#tab-3">Puntos canjeados</a></li>
-
+                <li class="active"><a data-animated='slideInLeft' data-toggle="tab" href="#tab-1">Puntos acumulados</a></li>
+                <li><a data-animated='slideInLeft' data-toggle="tab" href="#tab-2">Puntos canjeados</a></li>
+                <li><a data-animated='fadeInUp' data-toggle="tab" href="#tab-3">Puntos descargados</a></li>
             </ul>
             <div class="tab-content">
                 <div class="tab-container">
                     <div id="tab-1" class="tab-panel active">
-                        <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600">Puntos disponibles: 800</h4>
+                        <p class="texto-verde margin-top-20">Puntos acumulados: 1800</p>
                         <br>
                         <div class="row">
-                            <div class="col-sm-12 ">
-                                <div class="table-responsive">
-                                    <table class="group-product table text-center">
-                                        <tr class="text-center">
-                                            <th class="text-center">Fecha</th>
-                                            <th class="text-center">Evento</th>
-                                            <th class="text-center">Cantidad de puntos</th>
-                                        </tr>
-                                        <tr>
-                                            <td>04/02/2019</td>
-                                            <td>Lorem ipsum Lorem ipsum</td>
-                                            <td>XXX</td>
-                                        </tr>
-                                        <tr>
-                                            <td>04/02/2019</td>
-                                            <td>Lorem ipsum Lorem ipsum</td>
-                                            <td>XXX</td>
-                                        </tr>
-                                        <tr>
-                                            <td>04/02/2019</td>
-                                            <td>Lorem ipsum Lorem ipsum</td>
-                                            <td>XXX</td>
-                                        </tr>
-                                        <tr>
-                                            <td>04/02/2019</td>
-                                            <td>Lorem ipsum Lorem ipsum</td>
-                                            <td>XXX</td>
-                                        </tr>
-                                    </table>
-                                </div>
+                            <div class="col-md-5">
+                                <label for="" style="margin-right: 15px">Desde</label>
+                                <input value="Lorem ipsum" type="date" style="width: 70%">
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                            <div class="col-md-5">
+                                <label for="" style="margin-right: 15px">Hasta</label>
+                                <input value="Lorem ipsum" type="date" style="width: 70%">
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 ">
-                                <a class="button button-add-cart">Descargar estado de cuenta</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="tab-2" class="tab-panel">
-                        <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600">Puntos acumulados: 1800</h4>
                         <br>
                         <div class="row">
                             <div class="col-sm-12 col-md-12">
@@ -236,13 +225,27 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12 ">
+                            <div class="col-md-12 text-center">
                                 <a class="button button-add-cart">Descargar estado de cuenta</a>
                             </div>
                         </div>
                     </div>
-                    <div id="tab-3" class="tab-panel">
-                        <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600">Puntos canjeados: 1000</h4>
+                    <div id="tab-2" class="tab-panel">
+                        <p class="texto-verde margin-top-20">Puntos canjeados: 1800</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <label for="" style="margin-right: 15px">Desde</label>
+                                <input value="Lorem ipsum" type="date" style="width: 70%">
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                            <div class="col-md-5">
+                                <label for="" style="margin-right: 15px">Hasta</label>
+                                <input value="Lorem ipsum" type="date" style="width: 70%">
+                            </div>
+                        </div>
                         <br>
                         <div class="row">
                             <div class="col-sm-12">
@@ -259,7 +262,7 @@
                                             <td>Lorem</td>
                                             <td>XXX</td>
                                             <td>
-                                                <a href="detail-canje.html"><span style="font-size: 25px" class="icon pe-7s-news-paper"></span></a>
+                                                <a href="detail-canje.html"><img src="images/iconos/ver.png"> Ver</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -267,7 +270,7 @@
                                             <td>Lorem</td>
                                             <td>XXX</td>
                                             <td>
-                                                <a href="detail-canje.html"><span style="font-size: 25px" class="icon pe-7s-news-paper"></span></a>
+                                                <a href="detail-canje.html"><img src="images/iconos/ver.png"> Ver</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -275,7 +278,7 @@
                                             <td>Lorem</td>
                                             <td>XXX</td>
                                             <td>
-                                                <a href="detail-canje.html"><span style="font-size: 25px" class="icon pe-7s-news-paper"></span></a>
+                                                <a href="detail-canje.html"><img src="images/iconos/ver.png"> Ver</a>
                                             </td>
                                         </tr>
                                         <tr>
@@ -283,7 +286,7 @@
                                             <td>Lorem</td>
                                             <td>XXX</td>
                                             <td>
-                                                <a href="detail-canje.html"><span style="font-size: 25px" class="icon pe-7s-news-paper"></span></a>
+                                                <a href="detail-canje.html"><img src="images/iconos/ver.png"> Ver</a>
                                             </td>
                                         </tr>
                                     </table>
@@ -291,7 +294,63 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-12 ">
+                            <div class="col-md-12 text-center">
+                                <a class="button button-add-cart">Descargar estado de cuenta</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-3" class="tab-panel">
+                        <p class="texto-verde margin-top-20">Puntos descargados: 1800</p>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <label for="" style="margin-right: 15px">Desde</label>
+                                <input value="Lorem ipsum" type="date" style="width: 70%">
+                            </div>
+                            <div class="col-md-2">
+
+                            </div>
+                            <div class="col-md-5">
+                                <label for="" style="margin-right: 15px">Hasta</label>
+                                <input value="Lorem ipsum" type="date" style="width: 70%">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="table-responsive">
+                                    <table class="group-product table text-center">
+                                        <tr class="text-center">
+                                            <th class="text-center">Fecha</th>
+                                            <th class="text-center">Evento</th>
+                                            <th class="text-center">Cantidad de puntos</th>
+                                        </tr>
+                                        <tr>
+                                            <td>04/02/2019</td>
+                                            <td>Lorem ipsum Lorem ipsum</td>
+                                            <td>XXX</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04/02/2019</td>
+                                            <td>Lorem ipsum Lorem ipsum</td>
+                                            <td>XXX</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04/02/2019</td>
+                                            <td>Lorem ipsum Lorem ipsum</td>
+                                            <td>XXX</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04/02/2019</td>
+                                            <td>Lorem ipsum Lorem ipsum</td>
+                                            <td>XXX</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center ">
                                 <a class="button button-add-cart">Descargar estado de cuenta</a>
                             </div>
                         </div>
@@ -342,8 +401,8 @@
                     <div class="col-md-3 text-right">
                         <div class="margin-bottom-20 margin-top-20"><img src="images/logos/logo-jepVisa.png"></div>
                         <a href=""><img src="images/iconos/icono-fb.png" class="margin-redes"></a>
-                        <a href=""><img src="images/iconos/icono-insta.png"  class="margin-redes"></a>
-                        <a href=""><img src="images/iconos/icono-twitter.png"  class="margin-redes"></a>
+                        <a href=""><img src="images/iconos/icono-insta.png" class="margin-redes"></a>
+                        <a href=""><img src="images/iconos/icono-twitter.png" class="margin-redes"></a>
                         <a href=""><img src="images/iconos/icono-youtube.png" class="margin-redes"></a>
                     </div>
                 </div>
@@ -359,9 +418,11 @@
             </div>
         </div>
     </footer>
+    <!--
     <a href="#" class="scroll_top" title="Scroll to Top" style="display: block;"><i class="fa fa-arrow-up"></i></a>
-    <!--    whatsapp-->
+        whatsapp
     <button class="open-button" onclick="openForm()"><img src="images/ws.png" alt=""></button>
+-->
     <div class="chat-popup appWhatsapp" id="myForm">
         <form class="form-container">
             <div class="dis-flex padd-box1">
