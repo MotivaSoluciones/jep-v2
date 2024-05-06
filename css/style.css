@@ -6782,7 +6782,7 @@ table.group-product > tbody > tr > td {
 
 table.group-product > tbody > tr > th {
     background-color: #D5D5D5;
-/*    border: none;*/
+    /*    border: none;*/
     color: #4D4D4D;
 
 }
@@ -10372,5 +10372,38 @@ li.info-pts span {
 .texto-verde {
     color: #007E32;
     font-size: 30px;
-      font-family: 'FiraSans-SemiBold';
+    font-family: 'FiraSans-SemiBold';
+}
+
+.tab-product .productos-jep li {
+    border: 1px solid #B2B2B2;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 0 15px 15px 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    vertical-align: top;
+
+}
+
+.tab-product .productos-jep .active {
+    border: 1px solid #007E32 !important;
+}
+
+.tab-product .productos-jep a {
+    font-size: 20px !important;
+}
+.tab-product .productos-jep a img {
+    margin-bottom: 10px;
+}
+.tab-product .productos-jep .active a {
+    color: #007E32 !important;
+
+}
+
+.tab-product .productos-jep li a:after {
+    height: 0 !important;
 }
