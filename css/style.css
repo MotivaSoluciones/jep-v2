@@ -3841,7 +3841,7 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .product-thumb {
-    width: 80px;
+    width: 133px;
     float: left;
 }
 
@@ -6342,6 +6342,7 @@ FOOTER
     background-color: #fff;
     padding: 35px 30px;
     overflow: hidden;
+    border-radius: 4px;
 }
 
 .product-details-right .breadcrumbs {
@@ -6354,7 +6355,7 @@ FOOTER
 .product-details-right .product-name {
     font-size: 18px;
     color: #222;
-    text-transform: uppercase;
+
     margin-bottom: 10px;
 }
 
@@ -9662,17 +9663,19 @@ RESPONSIVE
 .basket {
     background: #F39200;
     border-radius: 100%;
-    height: 24px;
+    height: 33px;
     line-height: 24px;
     position: absolute;
     right: 0px;
-    top: 0;
+    top: 0px;
     transform: translate(25%, -25%);
-    width: 24px;
+    width: 33px;
     z-index: 1;
     text-align: center;
     color: #fff;
     font-weight: 600;
+    font-size: 22px;
+    padding-top: 4px;
 }
 
 .fondo {
@@ -10428,8 +10431,14 @@ li.info-pts span {
     font-family: 'FiraSans-Bold';
 }
 
+.verde {
+    font-size: 18px;
+    color: #007E32;
+    font-family: 'FiraSans-Medium';
+}
+
 .menos,
-.mas{
+.mas {
     cursor: pointer;
     font-size: 20px;
     background: #CCCCCC;
@@ -10438,4 +10447,55 @@ li.info-pts span {
     height: 20px;
     padding: 0px 7px;
     color: #4D4D4D;
+}
+
+.titulo-canje {
+    font-weight: 600;
+    color: #4D4D4D;
+    font-size: 23px
+}
+
+.product-details-right .product-name a {
+    font-size: 18px;
+}
+
+.volver-carrito {
+    color: #007E32 !important;
+    border: 1px solid #007E32;
+    padding: 6px 24px;
+    border-radius: 4px;
+    font-size: 18px !important;
+}
+
+.radio {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 15px 15px 0;
+}
+
+.nombre-direccion {
+    font-weight: 600;
+    font-size: 18px;
+    color: #4D4D4D;
+}
+
+.editar {
+    color: #007E32;
+    position: absolute;
+    top: 15px;
+    font-size: 13px;
+    float: right;
+    right: 20px;
+}
+
+.titulo-canjeok {
+    font-weight: 600;
+    font-size: 18px;
+    color: #4D4D4D;
+}
+.texto-naranja {
+    color: #F39200;
+    font-size: 23px;
+    font-family: 'FiraSans-SemiBold';
 }

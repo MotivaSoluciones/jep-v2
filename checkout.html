@@ -10,26 +10,41 @@
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="css/chosen.css">
     <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-       
+
     <link rel="stylesheet" type="text/css" href="css/font-linearicons.css">
     <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        .chosen-container {
+            width: 100% !important;
+        }
 
-    
-    
+    </style>
+
+
 </head>
 
 <body class="home">
     <div id="box-mobile-menu" class="box-mobile-menu full-height full-width">
         <div class="box-inner">
-            <p class="color-whit nameUser" style="display: inline-block">Hola @Nombre</p>
+            <table class="">
+                <tr>
+                    <td width="30">
+                        <img src="images/iconos/icono-puntos.png">
+                    </td>
+                    <td>
+                        <p class="user-name">Carla Maldonado</p>
+                        <p class="puntos-actuales">260000 puntos</p>
+                    </td>
+                </tr>
+            </table>
             <span class="close-menu"><span class="icon pe-7s-close"></span></span>
         </div>
     </div>
     <div id="header-ontop" class="is-sticky"></div>
-       <header id="header" class="header style3">
+    <header id="header" class="header style3">
         <div class="container">
             <div class="main-menu-wapper">
                 <div class="row">
@@ -117,7 +132,7 @@
                             </div>
                         </div>
                         <ul class="boutique-nav main-menu clone-main-menu">
-                            <li class="active menu-item-has-children item-megamenu">
+                            <li class="">
                                 <a href="index.html">Inicio</a>
                             </li>
 
@@ -139,22 +154,54 @@
             </div>
         </div>
     </header>
-    <div class="container margin-top-20">
-        <div class="row">
-            <div class="col-md-12">
-                <h3>Bienvenido Sr. Pérez</h3>
-                <p>Esta a solo 2 pasos de terminar su canje</p>
+    <img class="text-center" src="images/slides/banner-carrito.png">
+    <div style="background: #007E32">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="titulo"><img src="images/iconos/icono-carrito.png"> Canje de puntos</p>
+                </div>
             </div>
         </div>
     </div>
     <div class="product-details-full">
         <div class="container">
             <div class="main-content">
-
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="product-details-right">
-                            <h4 style="font-weight: 600">Resumen de tu canje (2 productos)</h4>
+                            <p class="titulo-canje">¿Dónde deseas recibir tu pedido?</p>
+                            <div class="row margin-top-20">
+                                <div class="col-md-12">
+                                    <div class="radio">
+                                        <label style="width: 100%">
+                                            <input type="radio" name="optradio" checked>
+                                            <span class="nombre-direccion">Casa</span> <br>
+                                            <p style="display: inline-block">Bolivar 10-55 y General Torres</p>
+                                            <a data-toggle="modal" data-target="#direccion" class="editar"><img src="images/iconos/icono-editar.png"><br> Editar</a>
+                                        </label>
+                                    </div>
+                                    <div class="radio">
+                                        <label style="width: 100%">
+                                            <input type="radio" name="optradio" checked>
+                                            <span class="nombre-direccion">Oficina</span> <br>
+                                            <p style="display: inline-block">General Torres 9-77 y Bolívar</p>
+                                            <a data-toggle="modal" data-target="#direccion" class="editar"><img src="images/iconos/icono-editar.png"><br> Editar</a>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-top-20">
+                                <div class="col-md-12">
+                                    <a data-toggle="modal" data-target="#direccion" style="text-decoration: underline" class="puntos-verde">+ Agregar nueva dirección</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="product-details-right">
+                            <p class="titulo-canje">Resumen de tu canje (2 productos)</p>
                             <div class="widget widget_recent_product row margin-top-30">
                                 <div class="col-md-12">
                                     <ul class="product-categories">
@@ -164,9 +211,9 @@
                                                 <a><img alt="" src="images/products/1.png"></a>
                                             </div>
                                             <div class="product-info">
-                                                <p class="text-uppercase marca" style="margin: 0">Marca</p>
+                                                <p class="marca" style="margin: 0;font-size: 18px">Marca</p>
                                                 <h3 class="product-name" style="margin-bottom: 5px;"><a href="detail-prod.html">Nombre producto</a></h3>
-                                                <p class="price" >500 puntos</p>
+                                                <p class="puntos-verde">500 puntos</p>
                                             </div>
                                         </li>
                                         <li>
@@ -175,76 +222,34 @@
                                                 <a><img alt="" src="images/products/1.png"></a>
                                             </div>
                                             <div class="product-info">
-                                                <p class="text-uppercase marca" style="margin: 0">Marca</p>
+                                                <p class="marca" style="margin: 0;font-size: 18">Marca</p>
                                                 <h3 class="product-name" style="margin-bottom: 5px;"><a href="detail-prod.html">Nombre producto</a></h3>
-                                                <p class="price" >500 puntos</p>
+                                                <p class="puntos-verde">500 puntos</p>
                                             </div>
                                         </li>
                                         <li>
-                                            <a href="carrito.html"><span class="icon pe-7s-cart"></span> Volver a mi carrito</a>
+                                            <a class="volver-carrito" href="carrito.html"><span class="icon pe-7s-cart"></span> Volver a mi carrito</a>
                                         </li>
-                                        <li>
+                                        <li style="border: 0">
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <h5 style="font-weight: 600">TOTAL:</h5>
+                                                    <p class="puntos-verde">Total:</p>
                                                 </div>
                                                 <div class="col-md-6 text-right">
-                                                    <p style="font-weight: 600;font-size: 18px;color: #222;margin-bottom: 0">1000 puntos</p>
+                                                    <p class="puntos-verde">1000 puntos</p>
                                                 </div>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
+                                <div class="col-md-12 text-center">
+                                    <a class="button " href="checkout-ok.html">Continuar canje</a>
+                                </div>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="product-details-right">
-                            <h4 style="font-weight: 600">Detalle de envío</h4>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Dirección de envío</label><br>
-                                    <select name="" class="normal" id="" style="width: 100%;height: 40px">
-										<option value="" class="normal">Seleccionar</option>
-										<option value="" class="normal">Casa</option>
-										<option value="" class="normal">Oficina</option>
-										<option value="" class="normal">Casa de playa</option>
-									</select>
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Dirección</label><br>
-                                    <input type="text" style="width: 100%" value="Calle Santa Isabel 265 Dpto 201 - MIRAFLORES - LIMA - LIMA" disabled>
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Correo electrónico</label><br>
-                                    <input type="text" style="width: 100%">
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Celular de contacto</label><br>
-                                    <input type="text" style="width: 100%">
-                                </div>
-                            </div>
 
-                            <div class="row margin-top-30">
-                                <div class="col-md-12">
-                                    <label for="">Indicaciones particulares</label><br>
-                                    <input type="text" style="width: 100%">
-                                </div>
-                            </div>
-                            <div class="row margin-top-30">
-                                <div class="col-sm-12">
-                                    <a class="button " style="width: 100%;" data-toggle="modal" data-target="#codigo">Continuar canje</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <br>
 
@@ -293,8 +298,8 @@
                     <div class="col-md-3 text-right">
                         <div class="margin-bottom-20 margin-top-20"><img src="images/logos/logo-jepVisa.png"></div>
                         <a href=""><img src="images/iconos/icono-fb.png" class="margin-redes"></a>
-                        <a href=""><img src="images/iconos/icono-insta.png"  class="margin-redes"></a>
-                        <a href=""><img src="images/iconos/icono-twitter.png"  class="margin-redes"></a>
+                        <a href=""><img src="images/iconos/icono-insta.png" class="margin-redes"></a>
+                        <a href=""><img src="images/iconos/icono-twitter.png" class="margin-redes"></a>
                         <a href=""><img src="images/iconos/icono-youtube.png" class="margin-redes"></a>
                     </div>
                 </div>
@@ -331,7 +336,7 @@
             </a>
         </form>
     </div>
-        <script>
+    <script>
         function openForm() {
             document.getElementById("myForm").style.display = "block";
         }
@@ -387,8 +392,8 @@
                                     <br>
                                     <div class="checkbox">
                                         <label>
-							  <input type="checkbox">Recordar acceso
-							</label>
+                                            <input type="checkbox">Recordar acceso
+                                        </label>
                                     </div>
                                     <br>
                                     <a href="otp.html" class="button" style="width: 100%">Ingresar</a>
@@ -405,6 +410,72 @@
                     <div class="modal-footer">
                         <div class="container">dddd
                             <p class="text-center">JEP 2024 - Todos los derechos reservados </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="direccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
+            <div class="modal-content">
+                <div class="modal-header" style="border-bottom: 0;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
+                    <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600"><span class="icon pe-7s-map-marker" style="font-size: 25px"></span> Editar dirección</h4>
+                </div>
+                <div class="modal-body " style="margin-bottom: 20px;">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="">Nombre de la dirección</label><br>
+                            <input type="text" style="width: 100%">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="">Provincia</label><br>
+                            <select name="" id="" style="width: 100%!important">
+                                <option value="">Seleccione uno de la lista</option>
+                                <option value="">Lorem</option>
+                                <option value="">Ipsum</option>
+                                <option value="">Lorem</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Cantón</label><br>
+                            <select name="" class="normal" id="" style="width: 100%;">
+                                <option value="" class="normal">Seleccione uno de la lista</option>
+                                <option value="" class="normal">Lorem</option>
+                                <option value="" class="normal">Ipsum</option>
+                                <option value="" class="normal">Lorem</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Tipo de zona</label><br>
+                            <select name="" id="" style="width: 100%;">
+                                <option value="" class="normal">Seleccione uno de la lista</option>
+                                <option value="" class="normal">Lorem</option>
+                                <option value="" class="normal">Ipsum</option>
+                                <option value="" class="normal">Lorem</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Tipo de construcción</label><br>
+                            <select name="" id="" style="width: 100%;">
+                                <option value="" class="normal">Seleccione uno de la lista</option>
+                                <option value="" class="normal">Lorem</option>
+                                <option value="" class="normal">Ipsum</option>
+                                <option value="" class="normal">Lorem</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Dirección</label><br>
+                            <input type="text" style="width: 100%">
+                        </div>
+                        <div class="col-md-6 margin-top-20">
+                            <label for="">Referencia</label><br>
+                            <input type="text" style="width: 100%">
+                        </div>
+                        <div class="col-md-6 margin-top-50">
+                            <a class="button button-add-cart" href="checkout.html">Guardar dirección</a>
                         </div>
                     </div>
                 </div>
