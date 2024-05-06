@@ -9344,12 +9344,12 @@ RESPONSIVE
     }
 
     .tab-product .nav-tab li {
-        padding: 0;
+/*        padding: 0;*/
     }
 
     .tab-product .nav-tab:not(.box-categories) li a {
         font-size: 15px;
-        padding: 0 10px;
+/*        padding: 0 10px;*/
     }
 
     .tab-product .nav-tab.box-categories li img {
