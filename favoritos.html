@@ -16,19 +16,29 @@
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    
-    
+
+
 </head>
 
 <body class="home">
     <div id="box-mobile-menu" class="box-mobile-menu full-height full-width">
         <div class="box-inner">
-            <p class="color-whit nameUser" style="display: inline-block">Hola @Nombre</p>
+            <table class="">
+                <tr>
+                    <td width="30">
+                        <img src="images/iconos/icono-puntos.png">
+                    </td>
+                    <td>
+                        <p class="user-name">Carla Maldonado</p>
+                        <p class="puntos-actuales">260000 puntos</p>
+                    </td>
+                </tr>
+            </table>
             <span class="close-menu"><span class="icon pe-7s-close"></span></span>
         </div>
     </div>
     <div id="header-ontop" class="is-sticky"></div>
-       <header id="header" class="header style3">
+    <header id="header" class="header style3">
         <div class="container">
             <div class="main-menu-wapper">
                 <div class="row">
@@ -116,7 +126,7 @@
                             </div>
                         </div>
                         <ul class="boutique-nav main-menu clone-main-menu">
-                            <li class="active menu-item-has-children item-megamenu">
+                            <li class="">
                                 <a href="index.html">Inicio</a>
                             </li>
 
@@ -138,13 +148,19 @@
             </div>
         </div>
     </header>
-
+    <img class="text-center" src="images/slides/banner-favorito.png">
+    <div style="background: #007E32">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="titulo"><img src="images/iconos/icono-favoritos.png"> Mis favoritos</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container ">
         <div class="main-content">
-            <div class="page-title">
-                <h3><i class="fa fa-heart"></i> Mis favoritos (2 productos)</h3>
-            </div>
-            <div class="row">
+            <div class="row margin-top-20 margin-bottom-40">
                 <div class="col-sm-12 col-md-12">
                     <div class="table-responsive">
                         <table class="shop_table cart">
@@ -152,30 +168,34 @@
                                 <tr>
                                     <th colspan="2" class="product-name">Producto</th>
                                     <th class="product-price">Puntos</th>
-                                    <th class="product-quantity">Cantidad</th>
+                                    <th class="product-quantity text-center">Cantidad</th>
                                     <th class="product-subtotal">Subtotal</th>
-                                    <th class="product-subtotal">Agregar al carrito</th>
-                                    <th class="">Eliminar</th>
+                                    <th class="product-subtotal text-center">Agregar al carrito</th>
+                                    <th class="text-center">Eliminar</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td class="product-thumbnail"><img src="images/products/1.jpg" alt=""></td>
                                     <td class="product-name">
-                                        <p class="marca">Marca</p>
+                                        <p class=" marca">Nombre marca</p>
                                         <a href="detail-prod.html">Nombre producto</a>
                                     </td>
-                                    <td>500</td>
+                                    <td>
+                                        <p class="puntos-verde">500 puntos</p>
+                                    </td>
                                     <td class="text-center">
                                         <div class="quantity">
-                                            <a style="cursor: pointer;font-size: 20px;">-</a>
-                                            <input type="text" size="4" class="input-text qty text text-center" title="Qty" value="01" name="quantity">
-                                            <a style="cursor: pointer;font-size: 20px;">+</a>
+                                            <a class="menos">-</a>
+                                            <input type="text" size="4" class="input-text qty text text-center" title="Qty" value="1" name="quantity">
+                                            <a class="mas">+</a>
                                         </div>
                                     </td>
-                                    <td>500 puntos</td>
-                                    <td><a class="button" data-toggle="modal" data-target="#carrito">Agregar a carrito</a></td>
-                                    <td class="product-remove"><a><span class="icon pe-7s-trash" style="font-size: 20px"></span></a></td>
+                                    <td>
+                                        <p class="puntos-verde">500 puntos</p>
+                                    </td>
+                                    <td class="text-center"><a href=""  data-toggle="modal" data-target="#carrito"><img src="images/iconos/icono-agregarCarrito.png"></a></td>
+                                    <td class="text-center"><a href=""><img src="images/iconos/icono-eliminar.png"></a></td>
                                 </tr>
                                 <tr>
                                     <td class="product-thumbnail"><img src="images/products/1.png" alt=""></td>
@@ -183,17 +203,21 @@
                                         <p class="marca">Marca</p>
                                         <a href="detail-prod.html">Nombre producto</a>
                                     </td>
-                                    <td>500</td>
+                                    <td>
+                                        <p class="puntos-verde">500 puntos</p>
+                                    </td>
                                     <td class="text-center">
                                         <div class="quantity">
-                                            <a style="cursor: pointer;font-size: 20px;">-</a>
-                                            <input type="text" size="4" class="input-text qty text text-center" title="Qty" value="01" name="quantity">
-                                            <a style="cursor: pointer;font-size: 20px;">+</a>
+                                            <a class="menos">-</a>
+                                            <input type="text" size="4" class="input-text qty text text-center" title="Qty" value="1" name="quantity">
+                                            <a class="mas">+</a>
                                         </div>
                                     </td>
-                                    <td>500 puntos</td>
-                                    <td><a class="button" data-toggle="modal" data-target="#carrito">Agregar a carrito</a></td>
-                                    <td class="product-remove"><a><span class="icon pe-7s-trash" style="font-size: 20px"></span></a></td>
+                                    <td>
+                                        <p class="puntos-verde">500 puntos</p>
+                                    </td>
+                                    <td class="text-center"><a href="" data-toggle="modal" data-target="#carrito"><img src="images/iconos/icono-agregarCarrito.png"></a></td>
+                                    <td class="text-center"><a href=""><img src="images/iconos/icono-eliminar.png"></a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -245,8 +269,8 @@
                     <div class="col-md-3 text-right">
                         <div class="margin-bottom-20 margin-top-20"><img src="images/logos/logo-jepVisa.png"></div>
                         <a href=""><img src="images/iconos/icono-fb.png" class="margin-redes"></a>
-                        <a href=""><img src="images/iconos/icono-insta.png"  class="margin-redes"></a>
-                        <a href=""><img src="images/iconos/icono-twitter.png"  class="margin-redes"></a>
+                        <a href=""><img src="images/iconos/icono-insta.png" class="margin-redes"></a>
+                        <a href=""><img src="images/iconos/icono-twitter.png" class="margin-redes"></a>
                         <a href=""><img src="images/iconos/icono-youtube.png" class="margin-redes"></a>
                     </div>
                 </div>
