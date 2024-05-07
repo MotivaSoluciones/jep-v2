@@ -6400,8 +6400,7 @@ FOOTER
     margin-top: 20px;
     clear: left;
     padding: 16px 33px;
-    font-size: 14px;
-    background: #114f9a;
+
 }
 
 .product-details-right .quantity {
@@ -6650,8 +6649,10 @@ FOOTER
 }
 
 .tab-details-product .box-tabs li a {
-    color: #222;
-    text-transform: uppercase;
+font-size: 25px;
+    font-family: 'FiraSans-SemiBold';
+    color: #4D4D4D;
+   
 }
 
 .tab-details-product .box-tabs li a:after {
@@ -6660,7 +6661,7 @@ FOOTER
     display: block;
     width: 0%;
     margin-top: 3px;
-    background-color: #114f9a;
+    background-color: #007E32;
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
 }
