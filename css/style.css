@@ -9740,7 +9740,8 @@ RESPONSIVE
 
 #header {
     background: url(../images/bg-header.png) #2E2E2E;
-
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 .favorito {
@@ -10188,9 +10189,7 @@ li.info-pts span {
         margin-bottom: 10px;
     }
 
-    #header {
-        background-image: none;
-    }
+
 
     .header.style3 .logo a img {
         height: 40px;
@@ -10265,6 +10264,12 @@ li.info-pts span {
 
     .box-mobile-menu .main-menu {
         margin-top: 20px;
+    }
+        #header {
+        background-image: none;
+    }
+    .titulo {
+        font-size: 22px!important;
     }
 }
 
