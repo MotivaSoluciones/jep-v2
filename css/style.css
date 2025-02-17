@@ -6649,10 +6649,10 @@ FOOTER
 }
 
 .tab-details-product .box-tabs li a {
-font-size: 25px;
+    font-size: 25px;
     font-family: 'FiraSans-SemiBold';
     color: #4D4D4D;
-   
+
 }
 
 .tab-details-product .box-tabs li a:after {
@@ -10265,11 +10265,13 @@ li.info-pts span {
     .box-mobile-menu .main-menu {
         margin-top: 20px;
     }
-        #header {
+
+    #header {
         background-image: none;
     }
+
     .titulo {
-        font-size: 22px!important;
+        font-size: 22px !important;
     }
 }
 
@@ -10500,8 +10502,16 @@ li.info-pts span {
     font-size: 18px;
     color: #4D4D4D;
 }
+
 .texto-naranja {
     color: #F39200;
     font-size: 23px;
     font-family: 'FiraSans-SemiBold';
+}
+
+.alerta {
+    padding: 15px!important;
+    border: 1px dashed red!important;
+    border-radius: 8px;
+    margin: 15px 0!important;
 }
