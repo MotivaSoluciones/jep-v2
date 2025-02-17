@@ -243,7 +243,7 @@
                                     </ul>
                                 </div>
                                 <div class="col-md-12 text-center">
-                                    <a class="button " href="checkout-ok.html">Continuar canje</a>
+                                    <a class="button" data-toggle="modal" data-target="#compraPuntos">Continuar canje</a>
                                 </div>
                             </div>
 
@@ -369,47 +369,71 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="ingreso" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal fade" id="compraPuntos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
             <div class="modal-content">
                 <div class="tab-product tab-product-fade-effect">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
-                        <h4 class="title bold  margin-bottom-0">Inicia sesión</h4>
+                        <h4 class="title bold  margin-bottom-0"><span class="icon pe-7s-credit" style="font-size: 25px"></span> Compra de puntos</h4>
                     </div>
                     <div class="modal-body ">
                         <div class="row">
-                            <div class="col-md-12">
-                                <br>
-
-                                <form class="text-left">
-
-                                    <label for="">Código de participante</label><br>
-                                    <input id="name" type="text" style="width: 100%">
-                                    <br><br>
-                                    <label for="">Contraseña</label><br>
-                                    <input id="name" type="password" style="width: 100%">
-                                    <br>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox">Recordar acceso
-                                        </label>
-                                    </div>
-                                    <br>
-                                    <a href="otp.html" class="button" style="width: 100%">Ingresar</a>
-
-                                    <br><br>
-                                    <a href="nueva.html" class="button style-11" style="width: 100%">Registrarme</a>
-
-                                    <br><br>
-                                    <a href="recuperar.html" style="text-decoration: underline;">Olvide mi contraseña </a>
-                                </form>
+                            <div class="col-md-6">
+                                <label for="">Nombres</label><br>
+                                <input type="text" style="width: 100%">
                             </div>
+                            <div class="col-md-6">
+                                <label for="">Apellidos</label><br>
+                                <input type="text" style="width: 100%">
+                            </div>
+                            <div class="col-md-6 margin-top-20" >
+                                <label for="">Correo</label><br>
+                                <input type="text" style="width: 100%">
+                            </div>
+                            <div class="col-md-6 margin-top-20">
+                                <label for="">Dirección</label><br>
+                                <input type="text" style="width: 100%">
+                            </div>
+                            <div class="col-md-6 margin-top-20">
+                                <label for="">Código postal</label><br>
+                                <input type="text" style="width: 100%">
+                            </div>
+                            <div class="col-md-6 margin-top-20" >
+                                <label for="">Ciudad</label><br>
+                                <select name="" id="" style="width: 100%!important">
+                                    <option value="">Seleccione uno de la lista</option>
+                                    <option value="">Lorem</option>
+                                    <option value="">Ipsum</option>
+                                    <option value="">Lorem</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 margin-top-20">
+                                <label for="">Estado</label><br>
+                                <select name="" class="normal" id="" style="width: 100%;">
+                                    <option value="" class="normal">Seleccione uno de la lista</option>
+                                    <option value="" class="normal">Lorem</option>
+                                    <option value="" class="normal">Ipsum</option>
+                                    <option value="" class="normal">Lorem</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 margin-top-20">
+                                <label for="">País</label><br>
+                                <select name="" id="" style="width: 100%;">
+                                    <option value="" class="normal">Seleccione uno de la lista</option>
+                                    <option value="" class="normal">Lorem</option>
+                                    <option value="" class="normal">Ipsum</option>
+                                    <option value="" class="normal">Lorem</option>
+                                </select>
+                            </div>
+
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <div class="container">dddd
-                            <p class="text-center">JEP 2024 - Todos los derechos reservados </p>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <a class="button button-add-cart" href="checkout-ok.html">Comprar puntos</a>
+                            </div>
                         </div>
                     </div>
                 </div>
