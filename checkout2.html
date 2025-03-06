@@ -248,22 +248,15 @@
                                                     <p class="margin-bottom-0 nombre-direccion">Puntos disponibles:</p>
                                                 </div>
                                                 <div class="col-md-6 text-right ">
-                                                    <p class="margin-bottom-0 nombre-direccion">500 puntos</p>
+                                                    <p class="margin-bottom-0 nombre-direccion">1000 puntos</p>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="alerta">
-                                            <p class="margin-bottom-0"> 
-<!--                                                <span class="icon pe-7s-info" style="color: red;font-size: 20px;"></span>-->
-                                                <b>¡Estas cerca!</b> <br>Te faltan XXX puntos para canjear tu recompensa<br> <b>¿Qué hacer? </b><br>
-Sigue acumulando puntos con tus compras con tu Tarjeta JEP <br>
-Compra los puntos faltantes aquí
-                                            </p>
-                                        </li>
+
                                     </ul>
                                 </div>
-                                <div class="col-md-12 text-center">
-                                    <a class="button" data-toggle="modal" data-target="#compraPuntos">Comprar puntos</a>
+                                <div class="col-md-12 text-center margin-top-20">
+                                    <a class="button" href="checkout-ok.html">Finalizar canje</a>
                                 </div>
                             </div>
 
@@ -366,118 +359,8 @@ Compra los puntos faltantes aquí
         }
 
     </script>
-    <div class="modal fade" id="codigo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
-            <div class="modal-content">
-                <div class="modal-header" style="border-bottom: 0;">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">X</button>
-                    <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600"> Validar código OTP</h4>
-                </div>
-                <div class="modal-body" style="margin-bottom: 20px;">
 
-                    <div class="row">
-                        <div class="col-md-9">
-                            <label for="">Código OTP</label><br>
-                            <input type="text" style="width: 100%">
-                        </div>
 
-                        <div class="col-md-3">
-                            <a class="button button-add-cart" href="checkout-ok.html" style="margin-top: 30px">Validar</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="compraPuntos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-        <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
-            <div class="modal-content">
-                <div class="tab-product tab-product-fade-effect">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
-                        <h4 class="title bold  margin-bottom-0"><span class="icon pe-7s-credit" style="font-size: 25px"></span> Compra de puntos</h4>
-                    </div>
-                    <div class="modal-body ">
-                        <div class="row margin-bottom-20">
-                            <div class="col-md-6">
-                                <h5 style="font-weight: 600">Cantidad:</h5>
-                            </div>
-                            <div class="col-md-6">
-                                <h5 class="puntos-verde" style="font-weight: 600">500 Puntos</h5>
-                            </div>
-                        </div>
-                        <div class="row margin-bottom-20">
-                            <div class="col-md-6">
-                                <h5 style="font-weight: 600">Monto a pagar:</h5>
-                            </div>
-                            <div class="col-md-6">
-                                <h5 class="puntos-verde" style="font-weight: 600">8.96 $USD</h5>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                        <div class="col-md-12">
-                            <p>Por favor complete los siguientes datos:</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label for="">Nombres</label><br>
-                                <input type="text" style="width: 100%">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="">Apellidos</label><br>
-                                <input type="text" style="width: 100%">
-                            </div>
-                            <div class="col-md-6 margin-top-20">
-                                <label for="">Correo</label><br>
-                                <input type="text" style="width: 100%">
-                            </div>
-                            <div class="col-md-6 margin-top-20">
-                                <label for="">Teléfono</label><br>
-                                <input type="text" style="width: 100%">
-                            </div>
-                            <div class="col-md-6 margin-top-20">
-                                <label for="">Dirección</label><br>
-                                <input type="text" style="width: 100%">
-                            </div>
-                            <div class="col-md-6 margin-top-20">
-                                <label for="">Código postal</label><br>
-                                <input type="text" style="width: 100%">
-                            </div>
-                            <div class="col-md-6 margin-top-20">
-                                <label for="">Ciudad</label><br>
-                                <select name="" id="" style="width: 100%!important">
-                                    <option value="">Seleccione uno de la lista</option>
-                                    <option value="">Lorem</option>
-                                    <option value="">Ipsum</option>
-                                    <option value="">Lorem</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6 margin-top-20">
-                                <label for="">Provincia</label><br>
-                                <select name="" class="normal" id="" style="width: 100%;">
-                                    <option value="" class="normal">Seleccione uno de la lista</option>
-                                    <option value="" class="normal">Lorem</option>
-                                    <option value="" class="normal">Ipsum</option>
-                                    <option value="" class="normal">Lorem</option>
-                                </select>
-                            </div>
-                            
-
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <a class="button button-add-cart" href="checkout2.html">Comprar puntos</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="modal fade" id="direccion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
             <div class="modal-content">
