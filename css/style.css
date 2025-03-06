@@ -3619,8 +3619,8 @@ DS .product-list .product-item {
     display: inline-block;
     margin: 10px 10px 0 0;
     padding: 0 12px;
-    text-transform: uppercase;
     /*     background-color: #e5e5e5;
+    text-transform: uppercase;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -3631,7 +3631,7 @@ DS .product-list .product-item {
 .tagcloud .activo,
 .tagcloud a:hover {
     color: #fff;
-    background-color: #114f9a;
+    background-color: #F39200;
 }
 
 .widget_price_filter .price_slider_wrapper {
@@ -10517,4 +10517,100 @@ li.info-pts span {
 }
 .alerta p{
     line-height: 22px;
+}
+
+/*CATEGORIAS*/
+
+.menu-categorias {
+    display: flex !important;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    overflow-x: auto;
+    /* Habilita el scroll horizontal */
+    scroll-snap-type: x mandatory;
+    /* Desplazamiento suave */
+}
+
+.categoria {
+    flex: 0 0 auto;
+    /* No cambia de tamaño */
+    width: 100px;
+    height: 100px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    scroll-snap-align: center;
+    /* Centra las categorías */
+}
+
+.menu-categorias .active,
+.categoria:hover {
+    border-color:#F39200;
+    transform: scale(1.1);
+}
+.menu-categorias li {
+    margin: 15px 0;
+}
+.menu-categorias li a:after{
+    background-color:transparent!important;
+}
+
+
+.categoria img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.categoria p {
+    font-size: 12px;
+    color: #333;
+    margin: 0;
+    line-height: 15px;
+}
+
+/* Estilo del scroll */
+.menu-categorias::-webkit-scrollbar {
+    height: 0px;
+}
+
+.menu-categorias::-webkit-scrollbar-thumb {
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.menu-categorias::-webkit-scrollbar-track {
+    background: #ddd;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-categorias {
+        flex-wrap: nowrap;
+        padding: 10px;
+        justify-content: start;
+    }
+
+    .categoria {
+        width: 100px;
+        height: 100px;
+    }
+
+    .categoria img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .categoria p {
+        font-size: 12px;
+    }
 }
