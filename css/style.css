@@ -10511,12 +10511,12 @@ li.info-pts span {
 
 .alerta {
     padding: 15px!important;
-    border: 1px dashed red!important;
+    border: 1px dashed #007E32!important;
     border-radius: 8px;
     margin: 15px 0!important;
 }
 .alerta p{
-    line-height: 22px;
+    line-height: 28px;
 }
 
 /*CATEGORIAS*/
@@ -10614,11 +10614,16 @@ li.info-pts span {
         font-size: 12px;
     }
 }
-.alerta a {
-    color: #4D4D4D!important;
-    text-decoration: underline;
-}
+
 .style-11:hover{
     background: #e5e5e5;
     color: #545454;
+}
+
+.btn-aqui {
+    background: #F39200;
+    border-radius: 8px;
+    color: #fff!important;
+    padding: 5px 15px;
+    text-decoration: none;
 }
